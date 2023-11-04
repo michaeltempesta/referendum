@@ -13,6 +13,9 @@
 #     app.run(debug=True)
 
 # run.py
+from dotenv import load_dotenv
+load_dotenv()  # Take environment variables from .env.
+
 from app import app
 
 if __name__ == '__main__':
